@@ -1,0 +1,290 @@
+/*
+.conteined{
+ background: #2196F3;
+ color: #fff;
+ border: 1px solid #000000;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+ padding: 10px 32px;
+ font-family: 'Roboto';
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 30px;
+}
+
+.logo-item{
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em;
+ color: #000000;
+    
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+    
+}
+
+.header-item{
+ color: #2196F3;   
+
+}
+
+.header-item.hover{
+    background: #fff;
+  color: #212121;  
+}
+
+
+
+.advantages{
+    display: flex;
+    
+
+}
+
+.community{
+    display: flex;
+
+}
+
+.product{
+    display: flex;
+}
+*/
+
+:root{
+    --praimary-color: #212121;
+    --secodary-color: #757575;
+    --third-color: #2F303A;
+    --accent-color: #2196F3;
+    --primary-font: Roboto, sant-serif;
+    --normal-font:400;
+    --medium-font:500;
+    --bold-font:700;
+    --boldered-fons:900;
+    --praimary-fons-size:12px;
+}
+
+.body{
+ font-size:var(praimary-fons-size);   
+ }
+
+ /*styles*/ 
+ .content{
+   width: 1600;
+   margin: 0 auto;
+   margin-bottom: 80px;
+ }
+ 
+ /*header*/
+
+  .header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .logo-item {
+      font-weight: 700;
+      font-size: 26px;
+      letter-spacing: 0.03em;
+      color: #000;
+      padding: 13px;
+      text-decoration: none;
+  }
+
+  .logo {
+  
+      color: #2196F3;
+  }
+
+  .menu-list{
+    list-style: none;
+    display: flex;
+
+  }
+
+  .menu-item{
+    color: var(--praimary-color);
+    font-family: var(--primary-font);
+    font-size:15px;
+    font-weight:var(--medium-font);
+    padding: 13px 0;
+    margin-right: 50px;
+  }
+
+  .menu-item:first-child{
+    margin-left: 95px;
+  }
+
+  .menu-item:last-child{
+    margin-right: 330px;
+  }
+   
+  
+
+  .menu-link{
+    color: var(--praimary-color);
+    text-decoration:none;
+    
+  }
+
+  .contact{
+     list-style: none;
+     display: flex;
+
+  }
+
+
+  .contact-list{
+     color: var(--secodary-color);
+     font-family: var(--primary-font);
+     font-size: 15px;
+     font-weight: var(--medium-font);
+     padding: 13px;
+  }
+
+  .contact-item{
+     color: var(--secodary-color);
+     text-decoration: none;
+  }
+    
+
+  /* END HEADER*/
+
+ /*slider*/
+
+ .slider {
+  background-color:#2F303A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    
+
+ }
+
+ .slider-item{
+  width: 696px;
+  padding-top: 240px;;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  
+ }
+
+ 
+  .conteined {
+
+  background: #2196F3;
+  color: #fff;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+
+   
+  }
+
+  /*description*/
+  .description{
+    padding-top: 95px;
+  
+  }
+
+  .description-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+  }
+
+  .advantages{
+   display: flex;
+
+  }
+
+  .description-item{
+  
+
+  }
+
+
+ /*product*/ 
+
+.product{
+  background-color:#e5e5e5;
+  
+     
+}
+
+.product-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+  
+}
+
+.product-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 215px;
+  padding-top: 55px;
+  margin-right: 30px;
+  list-style: none;
+  
+  
+}
+
+.product-img{
+
+}
+
+ /*community*/
+
+ .community{
+  padding-top: 90px;
+  background-color: #F5F4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+  
+
+ }
+ .community-list{
+ justify-content: center;
+ }
+ .community-item{
+ display: flex;
+ list-style: none;
+justify-content: center;
+}
+ .community-tem{}
+  di
+ /*footer*/
+ 
+ .content{
+  background-color: ;
+ }
